@@ -1,0 +1,25 @@
+body {
+ padding: 20px;
+}
+
+ul {
+ padding: 0;
+}
+
+li.article {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li.article img {
+  max-height: 20px;
+  max-width: 20px;
+  display: block;
+  float: left;
+}
+
+li.article a {
+  display: block;
+  margin-left: 40px;
+}
