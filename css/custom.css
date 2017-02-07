@@ -1,15 +1,37 @@
 body {
+ font-family: 'Open Sans', sans-serif;
  padding: 20px;
 }
 
+.header {
+  padding: 20px;
+  border-color: #d3d3d3;
+  border-style: none none solid none;
+  border-width: 0 0 1px 0;
+  display: block;
+  font-size: 2em;
+}
+
+.logoA {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.logoSlash {
+  font-family: 'Playfair Display', serif;
+}
+
+.logoB {
+  font-family: 'Montserrat', sans-serif;
+}
+
 ul {
- padding: 0;
+ padding: 20px;
 }
 
 li.article {
   list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 li.article img {
@@ -21,5 +43,7 @@ li.article img {
 
 li.article a {
   display: block;
-  margin-left: 40px;
+  margin-left: 50px;
+  font-family: 'Playfair Display', serif;
+  color: black;
 }
